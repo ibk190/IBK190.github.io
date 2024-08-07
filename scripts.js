@@ -45,11 +45,11 @@ document.addEventListener('visibilitychange',
        
         if (document.visibilityState === "visible") {
             document.title = "Ibrahim Khalid| Computer System Engineer";
-            //$("#favicon").attr("href", "C:/Users/IBRAH/Downloads/IBK/resources/logo.png");
+            $("#favicon").attr("href", "logo.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-           // $("#favicon").attr("href", "C:/Users/IBRAH/Downloads/IBK/resources/logo.png");
+           $("#favicon").attr("href", "logo.png");
         }
     });
 document.addEventListener('DOMContentLoaded', function() {
